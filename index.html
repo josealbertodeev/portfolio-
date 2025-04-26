@@ -15,20 +15,20 @@
         <nav>
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Fale Comigo</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#fale-comigo">Fale Comigo</a></li>
             </ul>
         </nav>
 
-        <div class="nome">
+        <div class="nome" id="home">
             <h1>José <span>Alberto</span></h1>
             <h3>Desenvolvedor <span>Front End</span></h3>
         </div>
     </div>
 
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobre">
         <img src="src/img/alberto.png" alt="Imagem de perfil">
         <div>
             <h2>Sobre mim</h2>
@@ -36,6 +36,44 @@
             <button>Entre em Contato</button>
         </div>
     </section>
+
+    <div class="projetos" id="projetos">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
+
+            <div class="card">
+                <img src="src/img/netflix.png" alt="imagem netflix">
+                <h5>Netflix</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, quibusdam saepe.</p>
+                <a href="#">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="src/img/crono.png" alt="imagem netflix">
+                <h5>Cronometro</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, quibusdam saepe.</p>
+                <a href="#">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="src/img/starbucks.png" alt="imagem netflix">
+                <h5>Starbucks</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, quibusdam saepe.</p>
+                <a href="#">Ver Projeto</a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>José Alberto</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href=""><img src="src/img/telefone.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/josé-alberto-b-farias/" target="_blank"><img src="src/img/linkedin.png"></a>
+        </div>
+    </footer>
 
 </body>
 
